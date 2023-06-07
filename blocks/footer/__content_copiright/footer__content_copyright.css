@@ -1,0 +1,10 @@
+.footer__content_copyright {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__content_copyright {
+    margin: 48px 0 0;
+  }
+}

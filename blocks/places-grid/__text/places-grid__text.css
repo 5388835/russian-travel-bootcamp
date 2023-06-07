@@ -1,0 +1,35 @@
+.places-grid__text {
+  display: flex;
+  flex-direction: column;
+  max-width: 484px;
+  gap: 26px;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 163%;
+  margin: 0;
+  padding: 0;
+}
+
+.places-grid__text p {
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .places-grid__text {
+    max-width: 456px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places-grid__text {
+    max-width: 352px;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places-grid__text {
+    max-width: 288px;
+    padding: 0 16px 0;
+  }
+}

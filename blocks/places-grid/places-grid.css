@@ -1,0 +1,32 @@
+.places-grid {
+  max-width: 984px;  /* 1280px */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 148px 0;
+  padding: 0;
+  gap: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+  .places-grid {
+    max-width: 928px;
+    margin: 0 48px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places-grid {
+    max-width: 720px;
+    margin: 0 24px 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places-grid {
+    max-width: 320px;
+    margin: 0;
+    padding: 0;
+  }
+}

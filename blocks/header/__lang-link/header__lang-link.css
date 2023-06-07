@@ -1,0 +1,15 @@
+.header__lang-link {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 117%;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+  margin-right: 18px;
+  gap: 18px;
+}
+
+.header__lang-link:last-child {
+  margin-right: 0;
+  text-decoration-line: none;
+}
