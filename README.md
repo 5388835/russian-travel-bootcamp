@@ -20,8 +20,6 @@
 
 * [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
 
-На разрешении выше 1280px творится полная белиберда, но с этим я потом разберусь.
-
 ## Как посмотреть проект
 Проект можно посмотреть по ссылке: 
-[Путешествия по России](https://5388835.github.io/russian-travel/)
+[Путешествия по России](https://5388835.github.io/russian-travel-bootcamp/)
