@@ -1,4 +1,5 @@
 .header__logo {
+  background: url('../../../images/____logo.svg');
   display: flex;
   flex-direction: row;
   align-items: flex-end;
