@@ -1,4 +1,4 @@
-.places-grid__image {
+.places-grid__item_image {
   display: block;
   margin: 0;
   padding: 0;
@@ -10,21 +10,21 @@
 }
 
 @media (max-width: 1024px) {
-  .places-grid__image {
+  .places-grid__item_image {
     width: calc(43vw); /* Примерно равно 440px при ширине экрана 1024px */
     height: calc(43vw); /* Примерно равно 440px при ширине экрана 1024px */
   }
 }
 
 @media (max-width: 768px) {
-  .places-grid__image {
+  .places-grid__item_image {
     width: calc(44.27vw); /* Примерно равно 340px при ширине экрана 768px */
     height: calc(44.27vw); /* Примерно равно 340px при ширине экрана 768px */
   }
 }
 
 @media (max-width: 320px) {
-  .places-grid__image {
+  .places-grid__item_image {
     width: 100vw;
     height: 100vw;
   }

@@ -1,0 +1,28 @@
+.places-grid__item_link {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+.places-grid__item_link::before {
+  content: "URL";
+  display: block;
+  font-weight: 400;
+  font-size: .75rem;
+  line-height: 170%;
+  letter-spacing: 2px;
+  margin: 0 0 12px;
+  padding: 0;
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 320px) {
+  .places-grid__item_link {
+    padding: 0 16px 0;
+  }
+}
