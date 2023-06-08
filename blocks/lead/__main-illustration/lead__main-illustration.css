@@ -1,16 +1,13 @@
 .lead__main-illustration {
-  width: 100%;
+  max-width: 1184px;
+  min-width: 320px;
+  max-height: calc((615/984) * 100vw); /* У четырех разрешений одинаковое соотношение сторон высоты к ширине, поэтому можно не добавлять медиазапрос для каждого разрешения*/
+  min-height: 200px;
+  box-sizing: border-box;
   margin: 64px 0 0;
 }
 
 @media screen and (max-width: 1024px) {
-  .lead__main-illustration {
-    margin: 56px 0 0;
-  }
-
-}
-
-@media screen and (max-width: 768px) {
   .lead__main-illustration {
     margin: 56px 0 0;
   }
