@@ -7,9 +7,5 @@
   color: #FFFFFF;
   margin-right: 18px;
   gap: 18px;
-}
-
-.header__lang-link:last-child {
-  margin-right: 0;
   text-decoration-line: none;
 }
