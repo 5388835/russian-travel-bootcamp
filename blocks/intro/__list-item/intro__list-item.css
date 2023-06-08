@@ -6,6 +6,10 @@
   margin: 0;
 }
 
+.intro__list-item span {
+  font-weight: 400;
+}
+
 @media screen and (max-width: 768px) {
   .intro__list-item {
     font-weight: 400;
