@@ -1,12 +1,12 @@
 .places-grid__item_image {
-  display: block;
-  margin: 0;
-  padding: 0;
-  object-fit: cover;
   width: calc(35.9375vw); /* это ≈ 460px на экране 1280px */
   height: calc(35.9375vw);
   max-width: 460px; /* Чтобы на разрешении больше 1280px картинка не наезжала на текст. Max-height ниже тоже для этого */
   max-height: 460px;
+  display: block;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
 }
 
 @media (max-width: 1024px) {

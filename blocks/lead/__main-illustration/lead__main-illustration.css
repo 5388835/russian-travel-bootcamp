@@ -4,7 +4,7 @@
   max-height: calc((615/984) * 100vw); /* У четырех разрешений одинаковое соотношение сторон высоты к ширине, поэтому можно не добавлять медиазапрос для каждого разрешения*/
   min-height: 200px;
   box-sizing: border-box;
-  margin: 64px 0 0;
+  margin: 64px auto 0;
 }
 
 @media screen and (max-width: 1024px) {
