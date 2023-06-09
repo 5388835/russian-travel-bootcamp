@@ -1,6 +1,5 @@
 .intro__list {
   max-width: 690px;
-  min-width: 288px;
   list-style-type: none;
   display: flex;
   flex-direction: column;
