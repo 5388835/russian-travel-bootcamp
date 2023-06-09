@@ -1,0 +1,30 @@
+.places-grid__item_box {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 46.75% 49.19%;
+  row-gap: 48px;
+  column-gap: 40px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  }
+
+@media (max-width: 1024px) {
+.places-grid__item_box {
+  column-gap: 32px;
+}
+}
+
+@media (max-width: 768px) {
+ .places-grid__item_box {
+  grid-template-columns: 1fr;
+  column-gap: 28px;
+}
+}
+
+@media (max-width: 767px) {
+ .places-grid__item_box {
+  grid-template-columns: 1fr;
+  row-gap: 0;
+}
+}

@@ -13,7 +13,7 @@
   .places-grid__item_image {
     width: calc(43vw); /* это ≈ 440px на экране 1024px */
     height: calc(43vw);
-  }
+}
 }
 
 @media (max-width: 768px) {
