@@ -1,7 +1,15 @@
 .intro__list {
+  max-width: 690px;
+  min-width: 288px;
   list-style-type: none;
   display: flex;
   flex-direction: column;
   margin: 33px 0 0;
   padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .intro__list {
+    margin: 34px 0 0;
+  }
 }
