@@ -8,7 +8,7 @@
   text-decoration: none;
   color: #FFFFFF;
   width: 100%;
-  height: calc((740/1184) * (100vw));
+  height: calc((740/1184) * (min((100vw), 1280px)));
   box-sizing: border-box;
   margin: 0;
 }
