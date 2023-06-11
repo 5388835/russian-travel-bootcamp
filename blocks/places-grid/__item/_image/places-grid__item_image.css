@@ -9,21 +9,21 @@
   object-fit: cover;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .places-grid__item_image {
     width: calc(43vw); /* это ≈ 440px на экране 1024px */
     height: calc(43vw);
 }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .places-grid__item_image {
     width: calc(44.27vw); /* это ≈ 340px на экране 768px */
     height: calc(44.27vw);
   }
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .places-grid__item_image {
     min-height: 320px;
     width: 100vw;

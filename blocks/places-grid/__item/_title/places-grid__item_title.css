@@ -6,6 +6,8 @@
   line-height: 106%;
   margin: 0;
   padding: 0;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-stroke: 1px black;
 }
 
 @media screen and (max-width: 1024px) {
@@ -16,7 +18,7 @@
 
 @media screen and (max-width: 768px) {
   .places-grid__item_title {
-    max-width: 340px;
+    max-width: 329px; /* При такой ширине есть перенос у косы и нет у Байкала */
     font-size: 2.625rem;
     line-height: 110%;
   }

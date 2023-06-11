@@ -1,17 +1,12 @@
 .header__logo {
-  background: url('../../../images/__logo.svg') no-repeat center / contain;
-  width: 142px;
-  padding-bottom: calc((42/142) * 100%);
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  margin: 0;
-  height: 0;
+  weight: 176px;
+  height: 52px;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-@media screen and (min-width: 321px) {
+@media screen and (max-width: 320px) {
   .header__logo {
-    width: 176px;
-    padding-bottom: calc((52/176) * 100%);
+    weight: 142px;
+    height: 42px;
   }
 }

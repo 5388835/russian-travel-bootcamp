@@ -11,8 +11,9 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
+  font-size: 0; /* какой-то блок поднимает все элементы на 3px поэтому обнулила все шрифты для страницы */
 }
 
-/* * {
+* {
   outline: 1px solid red;
-} */
+}

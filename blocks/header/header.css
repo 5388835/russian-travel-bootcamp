@@ -1,10 +1,10 @@
 .header {
   max-width: 1184px;
   min-width: 320px;
+  max-height: 52px;
   margin: 28px 48px 0;
   padding: 0;
-  display: grid;
-  grid-template-columns: auto auto;
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -25,6 +25,7 @@
 @media screen and (max-width: 320px) {
   .header {
     max-width: 288px;
+    max-height: 42px;
     margin: 28px 24px 0;
   }
 }
