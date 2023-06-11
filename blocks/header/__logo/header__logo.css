@@ -1,11 +1,10 @@
-.header__logo {
+.header__logo img {
   weight: 176px;
   height: 52px;
-  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 @media screen and (max-width: 320px) {
-  .header__logo {
+  .header__logo img {
     weight: 142px;
     height: 42px;
   }

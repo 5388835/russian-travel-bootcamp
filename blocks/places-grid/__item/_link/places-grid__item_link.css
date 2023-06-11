@@ -39,6 +39,7 @@
 
 @media screen and (max-width: 320px) {
   .places-grid__item_link {
+    margin: 32px 0 0;
     padding: 0 16px 0;
   }
 }

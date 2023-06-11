@@ -1,6 +1,6 @@
 .header {
   max-width: 1184px;
-  min-width: 320px;
+  min-width: 288px;
   max-height: 52px;
   margin: 28px 48px 0;
   padding: 0;
@@ -26,6 +26,6 @@
   .header {
     max-width: 288px;
     max-height: 42px;
-    margin: 28px 24px 0;
+    margin: 16px 16px 0;
   }
 }
