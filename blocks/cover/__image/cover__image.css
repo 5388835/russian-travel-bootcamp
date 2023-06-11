@@ -8,9 +8,7 @@
   text-decoration: none;
   color: #FFFFFF;
   width: 100%;
-  max-width: 1184px;
-  min-width: 320px;
-  max-height: calc((740/1184) * 100vw); /* У четырех разрешений одинаковое соотношение сторон высоты к ширине, поэтому можно не добавлять медиазапрос для каждого разрешения*/
+  height: calc((740/1184) * (100vw));
   box-sizing: border-box;
   margin: 0;
 }
@@ -32,12 +30,15 @@
 
 @media screen and (min-width: 1280px) {
   .cover__image {
-    min-height: calc((740/1184) * (100vw - 96px));
+    height: calc((740/1184) * (100vw - 96px));
     margin: 0 48px;
   }
 }
+
+
 @media screen and (max-width: 320px) {
   .cover__image {
+    min-width: 320px;
     min-height: 200px; /* Чтобы на экранах меньше 320px картинка не уменьшалась меньше этой высоты */
     margin: 0 48px;
   }
