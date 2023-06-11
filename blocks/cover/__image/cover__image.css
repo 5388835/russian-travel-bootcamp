@@ -28,7 +28,7 @@
   opacity: .8;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1280px) {
   .cover__image {
     height: calc((740/1184) * (100vw - 96px));
     margin: 0 48px;
