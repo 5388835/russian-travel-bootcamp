@@ -1,4 +1,4 @@
-.places-grid__item_image {
+.places-grid__item_content_image {
   width: calc(35.9375vw); /* это ≈ 460px на экране 1280px */
   height: calc(35.9375vw);
   max-width: 460px; /* Чтобы на разрешении больше 1280px картинка не наезжала на текст. Max-height ниже тоже для этого */
@@ -10,21 +10,21 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .places-grid__item_image {
+  .places-grid__item_content_image {
     width: calc(43vw); /* это ≈ 440px на экране 1024px */
     height: calc(43vw);
 }
 }
 
 @media screen and (max-width: 768px) {
-  .places-grid__item_image {
+  .places-grid__item_content_image {
     width: calc(44.27vw); /* это ≈ 340px на экране 768px */
     height: calc(44.27vw);
   }
 }
 
 @media screen and (max-width: 767px) {
-  .places-grid__item_image {
+  .places-grid__item_content_image {
     min-height: 320px;
     width: 100vw;
     height: 100vw;
