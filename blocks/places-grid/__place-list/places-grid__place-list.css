@@ -1,0 +1,23 @@
+.places-grid__place-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 148px 0;
+  padding: 0;
+  gap: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+  .places-grid__place-list {
+    margin: 0 48px 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places-grid__place-list {
+    margin: 0;
+    padding: 0;
+    gap: 50px;
+  }
+}
