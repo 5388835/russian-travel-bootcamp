@@ -1,4 +1,4 @@
-.place-container {
+.places-grid__place-container {
   max-width: 100%;
   display: grid;
   grid-template-columns: 46.75% 49.19%;
@@ -10,19 +10,19 @@
   }
 
 @media (max-width: 1024px) {
-.place-container {
+.places-grid__place-container {
   column-gap: 32px;
 }
 }
 
 @media (max-width: 768px) {
- .place-container {
+ .places-grid__place-container {
   column-gap: 28px;
 }
 }
 
 @media (max-width: 767px) {
- .place-container {
+ .places-grid__place-container {
   grid-template-columns: 1fr;
   row-gap: 0;
 }
