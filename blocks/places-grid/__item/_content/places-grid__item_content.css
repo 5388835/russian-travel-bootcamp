@@ -1,4 +1,4 @@
-.places-grid__item_box {
+.places-grid__item_content {
   max-width: 100%;
   display: grid;
   grid-template-columns: 46.75% 49.19%;
@@ -10,19 +10,19 @@
   }
 
 @media (max-width: 1024px) {
-.places-grid__item_box {
+.places-grid__item_content {
   column-gap: 32px;
 }
 }
 
 @media (max-width: 768px) {
- .places-grid__item_box {
+ .places-grid__item_content {
   column-gap: 28px;
 }
 }
 
 @media (max-width: 767px) {
- .places-grid__item_box {
+ .places-grid__item_content {
   grid-template-columns: 1fr;
   row-gap: 0;
 }
