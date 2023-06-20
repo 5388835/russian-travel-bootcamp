@@ -8,7 +8,7 @@
   text-decoration: none;
   color: #FFFFFF;
   width: 100%;
-  height: calc((740/1184) * (min((100vw), 1280px)));
+  min-height: calc((740/1184) * (min((100vw), 1280px)));
   box-sizing: border-box;
   margin: 0;
 }
@@ -30,7 +30,7 @@
 
 @media screen and (max-width: 1280px) {
   .cover__image {
-    height: calc((740/1184) * (100vw - 96px));
+    min-height: calc((740/1184) * (100vw - 96px));
     margin: 0 48px;
   }
 }
