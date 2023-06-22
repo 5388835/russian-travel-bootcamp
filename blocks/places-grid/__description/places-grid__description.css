@@ -11,7 +11,7 @@
 }
 
 .places-grid__description span {
-  margin: 26px 0 0;
+  margin: 25px 0 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -30,7 +30,7 @@
 @media screen and (max-width: 320px) {
   .places-grid__description {
     max-width: 288px;
-    margin: 30px 16px 0;
+    margin: 32px 16px 0;
     padding: 0;
   }
 }
