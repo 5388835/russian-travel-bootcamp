@@ -6,3 +6,9 @@
   margin: 92px 0 0;
   padding: 0;
 }
+
+.cover a:hover {
+  background-color: inherit;
+  opacity: inherit;
+  transition: none;
+}
