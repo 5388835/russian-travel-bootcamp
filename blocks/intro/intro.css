@@ -1,5 +1,6 @@
 .intro {
   max-width: 690px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,12 +17,12 @@
 
 @media screen and (max-width: 768px) {
   .intro {
-    margin: 88px 24px 0;
+    margin: 88px calc(100% - 690px - 24px) 0 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro {
-    margin: 64px 16px 0;
+    margin: 64px calc(100% - 690px - 24px) 0 24px;
   }
 }
