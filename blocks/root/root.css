@@ -14,12 +14,18 @@
   font-size: 0; /* какой-то блок поднимает все элементы на 3px поэтому обнулила все шрифты для страницы */
 }
 
+@media screen and (max-width: 320px) {
+  .root {
+    min-width: 320px;
+  }
+}
+
 a:hover {
   background-color: #2a2c2f;
   opacity: 0.3;
   transition: opacity 0.3s ease;
 }
 
-/* * {
+* {
   outline: 1px solid red;
-} */
+}
