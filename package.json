@@ -1,0 +1,20 @@
+{
+  "name": "russian-travel-bootcamp",
+  "version": "1.0.0",
+  "description": "------ ## Обзор Это моя третья проектная работа в курсе веб-разработки от Практикума. Проект должен показать, как я поняла адаптивную вёрстку веб-разработке.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5388835/russian-travel-bootcamp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/5388835/russian-travel-bootcamp/issues"
+  },
+  "private": true,
+  "homepage": "https://github.com/5388835/russian-travel-bootcamp#readme"
+}
