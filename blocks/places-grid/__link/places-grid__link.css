@@ -6,7 +6,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 122%;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -18,15 +18,15 @@
 }
 
 .places-grid__link::before {
-  content: "URL";
+  content: 'URL';
   display: block;
   font-weight: 400;
-  font-size: .75rem;
+  font-size: 0.75rem;
   line-height: 170%;
   letter-spacing: 2px;
   margin: 0 0 12px;
   padding: 0;
-  color: #AAAAAA;
+  color: #aaaaaa;
   text-decoration: none;
 }
 

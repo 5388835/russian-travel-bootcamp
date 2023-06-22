@@ -1,7 +1,7 @@
 .cover__heading {
   max-width: 560px;
   min-width: 288px;
-  max-height: calc((152/560) * 100vw);
+  max-height: calc((152 / 560) * 100vw);
   font-style: normal;
   font-weight: 900;
   font-size: 4.5rem;

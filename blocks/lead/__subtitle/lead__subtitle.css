@@ -1,7 +1,7 @@
 .lead__subtitle {
   max-width: 640px;
   min-width: 288px;
-  max-height: calc((72/640) * 100vw);
+  max-height: calc((72 / 640) * 100vw);
   min-height: 40px;
   font-style: normal;
   font-weight: 400;
@@ -21,4 +21,3 @@
     margin: 16px 0 0;
   }
 }
-
