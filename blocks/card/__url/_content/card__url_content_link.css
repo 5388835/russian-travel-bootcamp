@@ -1,0 +1,17 @@
+.card__url_content_link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 122%;
+  color: #ffffff;
+  margin: 12px 0 0;
+  padding: 0;
+  text-decoration-line: underline;
+}
+
+@media screen and (max-width: 320px) {
+  .card__url_content_link {
+    margin: 32px 0 0;
+    padding: 0 16px 0;
+  }
+}
