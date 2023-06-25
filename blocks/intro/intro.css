@@ -1,7 +1,6 @@
 .intro {
   max-width: 690px;
   min-width: 288px;
-  max-height: calc((429 / 690) * 100%);
   min-height: 429px;
   width: 100%;
   display: flex;
@@ -26,7 +25,6 @@
 
 @media screen and (max-width: 320px) {
   .intro {
-    max-height: calc((754 / 288) * 100%);
     margin: 64px max(0px, calc(100% - (690px - 24px))) 0 24px;
   }
 }

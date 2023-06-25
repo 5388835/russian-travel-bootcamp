@@ -1,7 +1,6 @@
 .lead__title {
   max-width: 720px;
   min-width: 288px;
-  max-height: calc((208 / 690) * 100%);
   min-height: 88px;
   font-style: normal;
   font-weight: 900;
