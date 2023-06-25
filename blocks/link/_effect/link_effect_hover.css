@@ -1,0 +1,5 @@
+.link_effect_hover:hover {
+  background-color: #2a2c2f;
+  opacity: 0.3;
+  transition: opacity 0.8s ease;
+}

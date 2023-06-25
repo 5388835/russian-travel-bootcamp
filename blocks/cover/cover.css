@@ -7,12 +7,6 @@
   padding: 0;
 }
 
-.cover a:hover {
-  background-color: inherit;
-  opacity: inherit;
-  transition: none;
-}
-
 @media screen and (max-width: 320px) {
   .cover {
     margin: 66px 0 0;
