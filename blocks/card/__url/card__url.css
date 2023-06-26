@@ -1,6 +1,21 @@
 .card__url {
+  max-width: 28.5rem; /* 456px */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   align-self: end;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1023px) {
+  .card__url {
+    max-width: 22rem; /* 352px */
+  }
+}
+
+@media (max-width: 767px) {
+  .card__url {
+    max-width: 18rem; /* 288px */
+    margin: 32px 0 0;
+  }
 }

@@ -1,16 +1,15 @@
 .card__url_content_title {
-  font-weight: 400;
   font-size: 0.75rem;
-  line-height: 170%;
-  letter-spacing: 2px;
+  line-height: 0.75rem;
+  letter-spacing: 0.125rem;
   margin: 0;
   padding: 0;
   color: #aaaaaa;
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
   .card__url_content_title {
-    line-height: 100%;
+    margin: 0 0 0 16px;
   }
 }

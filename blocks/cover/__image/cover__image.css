@@ -8,7 +8,7 @@
   text-decoration: none;
   color: #ffffff;
   width: 100%;
-  height: calc((740 / 1184) * (min((100vw), 1280px)));
+  min-height: 740px;
   box-sizing: border-box;
   margin: 0 48px;
 }
@@ -30,13 +30,19 @@
 
 @media screen and (max-width: 1279px) {
   .cover__image {
+    min-height: 640px;
     margin: 0;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1023px) {
   .cover__image {
-    min-width: 320px;
-    min-height: 200px; /* Чтобы на экранах меньше 320px картинка не уменьшалась меньше этой высоты */
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover__image {
+    min-height: 200px;
   }
 }

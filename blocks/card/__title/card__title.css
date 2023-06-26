@@ -1,32 +1,32 @@
 .card__title {
-  max-width: 460px;
+  max-width: 28.75rem; /* 460px */
   font-style: normal;
   font-weight: 900;
   font-size: 4.5rem;
-  line-height: 106%;
+  line-height: 4.75rem;
   margin: 0;
   padding: 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .card__title {
-    max-width: 440px;
+    max-width: 27.5rem; /* 440px */
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .card__title {
-    max-width: 329px; /* При такой ширине есть перенос у косы и нет у Байкала */
+    max-width: 20.5rem; /* 340px */
     font-size: 2.625rem;
-    line-height: 110%;
+    line-height: 2.875rem;
   }
 }
 
 @media screen and (max-width: 320px) {
   .card__title {
-    max-width: 288px;
+    max-width: 18rem;
     font-size: 2rem;
-    line-height: 109%;
-    padding: 0 16px 0;
+    line-height: 2.1875rem;
+    padding: 0 0 0 16px;
   }
 }

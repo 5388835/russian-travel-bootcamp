@@ -1,26 +1,25 @@
 .card__description {
+  max-width: 30.25rem; /* 484px */
   display: flex;
   flex-direction: column;
-  max-width: 484px;
   gap: 26px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .card__description {
-    max-width: 456px;
+    max-width: 28.5rem; /* 456px */
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .card__description {
-    max-width: 352px;
-    font-size: 1rem;
+    max-width: 22rem; /* 352px */
   }
 }
 
 @media screen and (max-width: 320px) {
   .card__description {
-    max-width: 288px;
-    margin: 32px 16px 0;
+    max-width: 18.7rem; /* 288px */
+    gap: 25px;
   }
 }

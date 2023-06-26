@@ -1,7 +1,5 @@
 .intro__text {
-  max-width: 690px;
-  min-width: 288px;
-  min-height: 208px;
+  max-width: 43.125rem; /* 690px */
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
@@ -11,10 +9,14 @@
   padding: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .intro__text {
-    max-width: 288px;
-    min-width: 288px;
-    min-height: 520px;
+    max-width: 45rem; /* 720px */
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__text {
+    max-width: 18rem; /* 288px */
   }
 }

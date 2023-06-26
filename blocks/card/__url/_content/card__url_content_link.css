@@ -1,15 +1,12 @@
 .card__url_content_link {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 122%;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
   margin: 12px 0 0;
   padding: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .card__url_content_link {
-    margin: 32px 0 0;
-    padding: 0 16px 0;
+    margin: 12px 0 0 16px;
   }
 }

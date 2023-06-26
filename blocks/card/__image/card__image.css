@@ -1,31 +1,13 @@
 .card__image {
-  width: calc(35.9375vw); /* это ≈ 460px на экране 1280px */
-  height: calc(35.9375vw);
-  max-width: 460px; /* Чтобы на разрешении больше 1280px картинка не наезжала на текст */
+  width: 100%;
   display: block;
   margin: 0;
   padding: 0;
   object-fit: cover;
 }
 
-@media screen and (max-width: 1024px) {
-  .card {
-    width: calc(43vw); /* это ≈ 440px на экране 1024px */
-    height: calc(43vw);
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .card {
-    width: calc(44.27vw); /* это ≈ 340px на экране 768px */
-    height: calc(44.27vw);
-  }
-}
-
 @media screen and (max-width: 767px) {
-  .card {
-    min-height: 320px;
-    width: 100%;
-    margin: 32px 0 0;
+  .card__image {
+    margin: 32px 0;
   }
 }
