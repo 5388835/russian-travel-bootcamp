@@ -1,4 +1,4 @@
-.card__content_url-title {
+.card__url_content_title {
   font-size: 0.75rem;
   line-height: 0.75rem;
   letter-spacing: 0.125rem;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .card__content_url-title {
+  .card__url_content_title {
     margin: 0 0 0 16px;
   }
 }

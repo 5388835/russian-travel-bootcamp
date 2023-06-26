@@ -1,4 +1,4 @@
-.card__description {
+.card__text-box {
   max-width: 30.25rem; /* 484px */
   display: flex;
   flex-direction: column;
@@ -6,19 +6,19 @@
 }
 
 @media screen and (max-width: 1279px) {
-  .card__description {
+  .card__text-box {
     max-width: 28.5rem; /* 456px */
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .card__description {
+  .card__text-box {
     max-width: 22rem; /* 352px */
   }
 }
 
 @media screen and (max-width: 767px) {
-  .card__description {
+  .card__text-box {
     max-width: 18.7rem; /* 288px */
     gap: 25px;
   }
