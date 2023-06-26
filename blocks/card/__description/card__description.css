@@ -17,7 +17,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .card__description {
     max-width: 18.7rem; /* 288px */
     gap: 25px;

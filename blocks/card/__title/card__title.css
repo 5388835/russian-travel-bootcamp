@@ -22,7 +22,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .card__title {
     max-width: 18rem;
     font-size: 2rem;

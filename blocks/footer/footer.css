@@ -1,6 +1,6 @@
 .footer {
-  max-width: 1184px;
-  min-width: 320px;
+  max-width: 74rem; /* 1184px */
+  min-width: 20rem; /* 320px */
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -23,9 +23,9 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .footer {
-    min-width: 186px;
+    min-width: 11.625rem; /* 186px */
     margin: 64px 16px 24px;
   }
 }
