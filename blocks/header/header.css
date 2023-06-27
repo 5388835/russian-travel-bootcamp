@@ -1,7 +1,7 @@
 .header {
   max-width: 74rem; /* 1184px */
   min-width: 18rem; /* 288px */
-  margin: 28px 48px 0;
+  margin: 28px auto 0;
   padding: 0;
   display: flex;
   justify-content: space-between;
@@ -17,13 +17,13 @@
 @media screen and (max-width: 1023px) {
   .header {
     max-width: 45rem; /* 720px */
-    margin: 28px 24px 0;
+    margin: 28px auto 0;
   }
 }
 
 @media screen and (max-width: 767px) {
   .header {
     max-width: 18rem; /* 288px */
-    margin: 16px 16px 0;
+    margin: 16px auto 0;
   }
 }
